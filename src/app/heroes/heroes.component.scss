@@ -1,0 +1,18 @@
+.heroes{
+    .item{
+        margin: 10px;
+        cursor: pointer;
+        .badge{
+            border: 1px black solid;
+
+
+        }
+
+        &.selected{
+            opacity: 0.6;
+        }
+
+    }
+    
+
+}
